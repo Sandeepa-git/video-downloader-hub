@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Button } from "@/components/ui/button.jsx";
 import { Input } from "@/components/ui/input.jsx";
-import { Analytics } from "@vercel/analytics/next";
 import {
   Card,
   CardContent,
@@ -411,8 +410,7 @@ function App() {
             </div>
           )}
 
-          {/* Add Analytics here */}
-          <Analytics />
+          
 
           {/* Instructions */}
           <Card className="max-w-4xl mx-auto mt-12">
